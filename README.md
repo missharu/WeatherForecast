@@ -29,6 +29,20 @@ To install the dependencies, run the following command in your terminal:
 pip install -r requirements.txt
 ```
 
+## How It Works
+
+This project uses the OpenWeather API to fetch real-time weather data. Through an HTTP request, the script retrieves information about the temperature, humidity, and wind speed of the user-provided city.
+
+### Configuring the OpenWeather API
+You will need an API key to access the OpenWeather data. Follow these steps:
+
+- Visit the OpenWeather website and create an account.
+- Generate an API key.
+- Insert the API key in the Python script by replacing the value of the `api_key` variable in the `previsaotempo.py` file:
+
+```bash
+api_key = "YOUR_API_KEY"
+```
 
 ## Usage
 
@@ -58,4 +72,4 @@ Enter the city name to retrieve weather data. The script will display the inform
 This project was developed by Paula Carina Santos. If you have any questions or suggestions, feel free to reach out! 🌸
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE]LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
