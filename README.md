@@ -12,7 +12,7 @@ This project collects real-time weather data from the OpenWeather API and saves 
 ## Project Structure
 
 ```bash
-/previsaotempo │
+/WeatherForecast │
 ├── main.py # Main script that retrieves data and saves it to CSV
 ├── README.md # Project documentation
 ├── requirements.txt # Project dependencies (required libraries)
